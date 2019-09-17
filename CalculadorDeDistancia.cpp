@@ -8,7 +8,7 @@ using namespace std;
 
 void CalculadorDeDistancia::obtemCidades()
 {
-     int quantidadeCidades;
+    int quantidadeCidades;
     cout << "Quantas Cidades?" << endl;
     cin >> quantidadeCidades;
 
@@ -29,8 +29,9 @@ void CalculadorDeDistancia::obtemNomeDasCidades()
 void CalculadorDeDistancia::obtemMatrizDeConectividade()
 {
     this->matrizConectividade.resize(this->quantidadeDeCidades);
-    for (sub_array : this->matrizConectividade) {
-    sub_array.resize(this->quantidadeDeCidades);
+    for (sub_array : this->matrizConectividade)
+    {
+        sub_array.resize(this->quantidadeDeCidades);
     }
 
     for (int i = 0; i< this->quantidadeDeCidades; i++)
@@ -47,7 +48,7 @@ void CalculadorDeDistancia::obtemMatrizDeConectividade()
 void CalculadorDeDistancia::imprimirDistancias()
 {
 
-     for (int j = 0; j< this->quantidadeDeCidades; j++ )
+    for (int j = 0; j< this->quantidadeDeCidades; j++ )
     {
         cout  << this->cidades[j] << " :"<< endl;
         int *distancia = this->cidadesAtivas(this->matrizConectividade,j,this->quantidadeDeCidades);

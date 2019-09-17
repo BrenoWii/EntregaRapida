@@ -32,6 +32,8 @@
 			<Add option="-Wall" />
 			<Add option="-fexceptions" />
 		</Compiler>
+		<Unit filename="CalculadorDeDistancia.cpp" />
+		<Unit filename="CalculadorDeDistancia.h" />
 		<Unit filename="Fila.cpp">
 			<Option target="&lt;{~None~}&gt;" />
 		</Unit>

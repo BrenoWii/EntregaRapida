@@ -1,8 +1,7 @@
 #ifndef CALCULADORDEDISTANCIA_H_INCLUDED
 #define CALCULADORDEDISTANCIA_H_INCLUDED
 
-#include <string>
-#include <iostream>
+
 #include <vector>
 
 class CalculadorDeDistancia

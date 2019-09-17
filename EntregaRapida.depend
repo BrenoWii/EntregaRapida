@@ -1,10 +1,9 @@
 # depslib dependency file v1.0
-1568754296 source:c:\users\breno\documents\faculdade\2019-2\entregarapida\main.cpp
+1568759658 source:c:\users\breno\documents\faculdade\2019-2\entregarapida\main.cpp
 	<iostream>
 	<stdio.h>
 	<string.h>
 	<stdlib.h>
-	<locale.h>
 	"Fila.cpp"
 	"CalculadorDeDistancia.cpp"
 
@@ -15,14 +14,18 @@
 
 1568593773 c:\users\breno\documents\faculdade\2019-2\entregarapida\fila.h
 
-1568754915 c:\users\breno\documents\faculdade\2019-2\entregarapida\calculadordedistancia.cpp
+1568759695 c:\users\breno\documents\faculdade\2019-2\entregarapida\calculadordedistancia.cpp
 	<iostream>
 	<stdlib.h>
 	"CalculadorDeDistancia.h"
 	"Fila.h"
 
-1568753350 c:\users\breno\documents\faculdade\2019-2\entregarapida\calculadordedistancia.h
-	<string>
-	<iostream>
+1568759430 c:\users\breno\documents\faculdade\2019-2\entregarapida\calculadordedistancia.h
 	<vector>
+
+1568759695 source:c:\users\breno\documents\faculdade\2019-2\entregarapida\calculadordedistancia.cpp
+	<iostream>
+	<stdlib.h>
+	"CalculadorDeDistancia.h"
+	"Fila.h"
 
